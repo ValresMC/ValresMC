@@ -1,10 +1,9 @@
 <div align="center">
   
 # 👋 Salut, moi c'est Valres
+### 🎮 Développeur Full-Stack & Créateur de Bots Discord
 
-### 🎮 Développeur passionné par PocketMine-MP
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=435&lines=Expert+PocketMine-MP;D%C3%A9veloppeur+PHP;Cr%C3%A9ateur+de+plugins+Minecraft" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F75C7E&center=true&vCenter=true&width=500&lines=Expert+PocketMine-MP;D%C3%A9veloppeur+JavaScript+%2F+TypeScript;Cr%C3%A9ateur+de+Bots+Discord;GOAT" alt="Typing SVG" />
 
 </div>
 
@@ -12,11 +11,12 @@
 
 ## 🚀 À propos de moi
 
-Passionné par le développement de serveurs Minecraft Bedrock, je me spécialise dans la création de plugins et l'optimisation de serveurs **PocketMine-MP**. J'aime repousser les limites de ce que l'on peut faire avec PHP et créer des expériences de jeu uniques.
+Développeur passionné spécialisé dans la création de bots Discord et de serveurs Minecraft Bedrock. Je combine JavaScript/TypeScript pour des bots intelligents et PHP pour des plugins PocketMine-MP innovants.
 
-- Je travaille actuellement sur des plugins innovants pour PocketMine-MP
-- J'apprends constamment de nouvelles techniques d'optimisation
-- Demandez-moi tout sur **PocketMine-MP, PHP, ou le développement de plugins**
+- 🤖 Création de bots Discord avec **Discord.js** et **TypeScript**
+- 🎮 Développement de plugins **PocketMine-MP**
+- 🔧 Optimisation de serveurs et architecture backend
+- 💡 Toujours à la recherche de nouveaux défis techniques
 
 ---
 
@@ -24,10 +24,20 @@ Passionné par le développement de serveurs Minecraft Bedrock, je me spécialis
 
 <div align="center">
 
+### Langages
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+
+### Frameworks & Bibliothèques
+![Discord.js](https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PocketMine](https://img.shields.io/badge/PocketMine--MP-16A34A?style=for-the-badge&logo=minecraft&logoColor=white)
+
+### Outils
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Intellij IDEA](https://img.shields.io/badge/Intellij_IDEA-037ABC?style=for-the-badge&logo=phpstom&logoColor=white)
 
 </div>
 
@@ -40,18 +50,8 @@ Passionné par le développement de serveurs Minecraft Bedrock, je me spécialis
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ValresMC&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ValresMC&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
-</div>
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ValresMC&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages">
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ValresMC&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages">
-</div>
-
----
-
-## ⏱️ Temps de codage
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Valres&theme=tokyonight&hide_border=true&layout=compact" alt="Wakatime Stats">
 </div>
 
 ---
@@ -76,8 +76,10 @@ Passionné par le développement de serveurs Minecraft Bedrock, je me spécialis
 
 ---
 
+<div align="center">
+
 ![Profile Views](https://komarev.com/ghpvc/?username=ValresMC&color=blueviolet&style=flat-square)
 
-**✨ Merci de visiter mon profil ! N'hésitez pas à explorer mes repositories ✨**
+**✨ Merci de visiter mon profil ! N'hésite pas à explorer mes projets ✨**
 
 </div>
