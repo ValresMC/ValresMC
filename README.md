@@ -1,58 +1,124 @@
-<div align="center">
-  
-# 👋 Salut, moi c'est Valres, développeur Full-Stack
----
-## 🚀 À propos
+class Goat:
+    level = float("inf")
 
-Développeur passionné spécialisé dans les bots Discord et les serveurs Minecraft Bedrock.
 
-- 🤖 Bots Discord avec **Discord.js** et **TypeScript**
-- 🎮 Plugins **PocketMine-MP**
-- 💡 Toujours en recherche de nouveaux défis
+class Developer:
+    def code(self):
+        raise NotImplementedError
 
----
 
-## 🛠️ Technologies
+class Valres(Goat, Developer):
+    name = "Valres"
+    role = "Backend Developer"
 
-<div align="center">
+    languages = [
+        "Java",
+        "PHP",
+        "TypeScript",
+        "JavaScript",
+    ]
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Discord.js](https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+    technologies = [
+        "PowerNukkitX",
+        "PocketMine-MP",
+        "Discord.js",
+        "Docker",
+        "Git",
+    ]
 
-</div>
+    interests = [
+        "Minecraft Bedrock",
+        "Music",
+        "Cook"
+    ]
 
----
+    currently_working_on = {
+        "PowerNukkitX": "Making Bedrock behave",
+        "High Skyblock": "Definitely not adding another system",
+    }
 
-## 📊 Stats
+    def __init__(self):
+        self.coffee = float("inf")
+        self.bugs_fixed = 0
+        self.bugs_created = 0
+        self.stack_overflow_tabs = 0
 
-<div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=ValresMC&show_icons=true&theme=tokyonight&hide_border=true" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=ValresMC&theme=tokyonight&hide_border=true" />
+    def code(self):
+        while True:
+            try:
+                self.write_code()
+                self.compile()
+                self.test()
 
-</div>
+                return "Works on my machine ✅"
+            except Exception as error:
+                self.debug(error)
 
----
+    def write_code(self):
+        self.bugs_created += 1
 
-## 📫 Contact
+    def compile(self):
+        if self.bugs_created > self.bugs_fixed:
+            raise RuntimeError("Something somewhere is null")
 
-<div align="center">
+    def debug(self, error):
+        self.stare_at_code(seconds=30)
 
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:votre-email@example.com)
+        if self.random_fix():
+            self.bugs_fixed += 1
+        else:
+            self.open_documentation()
 
-</div>
+    def use_ai(self, problem):
+        """
+        Tool != replacement for knowing what you're doing.
+        """
+        answer = AI.research(problem)
 
----
+        self.read(answer)
+        self.understand(answer)
+        self.verify(answer)
 
-<div align="center">
+        return self.implement_it_myself(answer)
 
-![Profile Views](https://komarev.com/ghpvc/?username=ValresMC&color=blueviolet&style=flat-square)
-<img src="https://wakatime.com/badge/user/f54acba2-3738-4a29-9800-89235154a177.svg">
+    def open_documentation(self):
+        self.stack_overflow_tabs += 7
 
-**✨ Merci de ta visite ! ✨**
+    def git_commit(self):
+        messages = [
+            "fix: fixed stuff",
+            "fix: actually fixed stuff",
+            "fix: please work",
+            "refactor: why did I write this",
+            "feat: it works somehow",
+        ]
 
-</div>
+        return random.choice(messages)
+
+    def random_fix(self):
+        return random.choice([True, False, False])
+
+    def sleep(self):
+        raise NotImplementedError(
+            "sleep() is currently not supported on this platform"
+        )
+
+    def touch_grass(self):
+        return False
+
+    @staticmethod
+    def stare_at_code(seconds):
+        if seconds >= 30:
+            print("oh.")
+            print("OH.")
+            print("I'm stupid.")
+
+    def __repr__(self):
+        return "<Valres status='coding' sanity='optional'>"
+
+
+if __name__ == "__main__":
+    valres = Valres()
+
+    while valres.touch_grass() is False:
+        valres.code()
