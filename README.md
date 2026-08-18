@@ -1,3 +1,4 @@
+```py
 class Goat:
     level = float("inf")
 
@@ -122,3 +123,5 @@ if __name__ == "__main__":
 
     while valres.touch_grass() is False:
         valres.code()
+
+```
